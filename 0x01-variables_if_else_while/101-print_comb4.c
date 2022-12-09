@@ -19,7 +19,7 @@ int main(void)
 		{
 			for (k = '0'; k <= '9'; k++)
 			{
-				if(!((k == j) || (j == i) ||(j > k) || (i > j)))
+				if (!((k == j) || (j == i) || (j > k) || (i > j)))
 				{
 					putchar(i);
 					putchar(j);
@@ -32,7 +32,7 @@ int main(void)
 					{
 					putchar(',');
 					putchar(' ');
-					}	
+					}
 				}
 			}
 		}
