@@ -1,9 +1,11 @@
-#include "main.h"
+#include"main.h"
+
 /**
  * main - Will print a string set
  *
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	_putchar('_');
