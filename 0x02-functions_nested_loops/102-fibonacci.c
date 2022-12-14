@@ -6,27 +6,28 @@
  */
 int main(void)
 {
-	int k, count, j, sum;
+	int count;
+	long int sum, k, j;
 
 	k = 1;
 
 	j = 2;
 
-	printf("%d, %d, ", k, j);
+	printf("%ld, %ld, ", k, j);
 
 	for (count = 2; count < 50; ++count)
 	{
 		if (count != 49)
 		{
 			sum = k + j;
-			printf("%d, ", sum);
+			printf("%ld, ", sum);
 			k = j;
 			j = sum;
 		}
 		else
 		{
 			sum = k + j;
-			printf("%d\n", sum);
+			printf("%ld\n", sum);
 		}
 	}
 	return (0);
