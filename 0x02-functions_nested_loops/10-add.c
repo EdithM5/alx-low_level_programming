@@ -2,12 +2,13 @@
 /**
  * add - Will add to integers
  *
- * @int: values to be added
+ * @a: values to be added
+ * @b: values to be added
  * Return: result success
  */
-int add(int, int)
+int add(int a, int b)
 {
-	int a, b, result;
+	int result;
 
 	result = a + b;
 
