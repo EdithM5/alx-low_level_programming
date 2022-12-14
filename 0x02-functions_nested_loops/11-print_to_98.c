@@ -9,6 +9,7 @@
 void print_to_98(int n)
 {
 	int i;
+	n = 98;
 
 	for (i = 0; i <= 98; i++)
 	{
