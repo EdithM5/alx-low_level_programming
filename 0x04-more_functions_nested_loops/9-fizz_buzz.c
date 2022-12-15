@@ -1,5 +1,5 @@
 #include<stdio.h>
-i
+
 /**
  * main - fizbuzz
  * Return: 0 success
