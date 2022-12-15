@@ -1,4 +1,5 @@
 #include"main.h"
+
 /**
  * more_numbers - prints more numbers
  * Return: 0 success
@@ -16,11 +17,12 @@ void more_numbers(void)
 		{
 			if (j >= 10)
 			{
-				putchar((j % 10) + 48);
+				_putchar((j / 10) + 48);
 			}
-			_puchar('\n');
-
-			i++;
+			_putchar((j % 10) + 48);
 		}
+		_puchar('\n');
+
+		i++;
 	}
 }
