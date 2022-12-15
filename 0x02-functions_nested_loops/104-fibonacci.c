@@ -32,12 +32,12 @@ int main(void)
 	{
 		printf("%lu, ", j1 + (j2 / 1000000000));
 		printf("%lu", j2 % 1000000000);
-		j1 = j1+k1;
+		j1 = j1 + k1;
 		k1 = j1 - k1;
-		j2 = j2 +k2;
-		k2 = j2 -k2;
+		j2 = j2 + k2;
+		k2 = j2 - k2;
 	}
-	printf("\n");	       	
+	printf("\n");
 
 	return (0);
 }
