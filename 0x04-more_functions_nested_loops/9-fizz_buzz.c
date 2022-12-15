@@ -1,5 +1,5 @@
-#include"main.h"
 #include<stdio.h>
+i
 /**
  * main - fizbuzz
  * Return: 0 success
@@ -20,6 +20,8 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
+
 	printf("Buzz\n");
+
 	return (0);
 }
