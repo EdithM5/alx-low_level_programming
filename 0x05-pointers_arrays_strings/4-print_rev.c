@@ -6,9 +6,21 @@
  */
 void print_rev(char *s)
 {
-	int i;
+	int i = 0;
 
-	for (s[i] = '\0'; i >= 0; i--)
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+
+	int n = i;
+
+	i = n - 1;
+
+	while (i >= 0)
+	{
 		_putchar(s[i]);
+		i--;
+	}
 	_putchar('\n');
 }
