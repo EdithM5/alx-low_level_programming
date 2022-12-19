@@ -1,4 +1,5 @@
 #include"main.h"
+#include<stdio.h>
 /**
  * _atoi - will convert string into integer
  * @s: the string
@@ -8,7 +9,7 @@ int _atoi(char *s)
 {
 	int i = 0;
 	int j = 1;
-	int k = 0;
+	int k = 1;
 
 
 	while (*(s + i) != '\0')
