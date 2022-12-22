@@ -1,4 +1,4 @@
-include"main.h"
+#include"main.h"
 /**
  * leet - encodes a string to 1337
  * @s: string
@@ -9,7 +9,7 @@ char *leet(char *s)
 	int j = 0, i;
 	int lowercase[] = {97, 101, 111, 116, 108};
 	int uppercase[] = {65, 69, 79, 84, 76};
-	int numbers[] = 52, 51, 48, 55, 49};
+	int numbers[] = {52, 51, 48, 55, 49};
 
 	while (*(s + j) != '\0')
 	{
