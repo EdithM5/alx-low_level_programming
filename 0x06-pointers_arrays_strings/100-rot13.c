@@ -11,17 +11,17 @@ char *rot13(char *s)
 	char alph13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
 
-		while (s[i] != '\0')
+		while (*(s + i) != '\0')
 		{
 			for (j = 0; j < 52; j++)
 			{
-				if (s[i] == alph[j])
+				if (*(s + i) == alph[j])
 				{
-					s[i] = alph13[j];
+					*(s + i) = alph13[j];
 					break;
 				}
 			}
+			i++;
 		}
-		i++;
 	return (s);
 }
