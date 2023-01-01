@@ -1,5 +1,4 @@
 #include"main.h"
-#include<stdio.h>
 /**
  * print_number - will print an integer
  * @n: integer to print
@@ -17,5 +16,5 @@ void print_number(int n)
 	if ((i / 10) > 0)
 		print_number(i / 10);
 
-	_putchar ((i % 10) + 48);
+	_putchar ((i % 10) + '0');
 }
