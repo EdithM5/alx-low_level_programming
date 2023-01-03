@@ -7,11 +7,12 @@
  */
 char *_strchr(char *s, char c)
 {
-	unsigned int n, i, j = 0;
+	unsigned int n, i, j;
+	j = 0;
 
 	while (s[j] != '\0')
 		j++;
-	j = n;
+	n = j;
 
 	for (i = 0; i < n; i++)
 	{
