@@ -3,11 +3,12 @@
  * _strspn - gives the length of s that has same bytes as accept
  * @s: the string
  * @accept: bytes to compare with
- * @Return: bytes found
+ * Return: bytes found
  */
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, j, k;
+
 	i = 0;
 	j = 0;
 
@@ -21,7 +22,7 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 			if (accept[k + 1] == '\0' && s[i] != accept[k])
-				return(j);
+				return (j);
 		}
 		i++;
 	}

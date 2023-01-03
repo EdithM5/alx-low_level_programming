@@ -1,4 +1,5 @@
 #include"main.h"
+#define NULL 0
 /**
  * _strchr - will search for char c
  * @s: the string
@@ -8,6 +9,7 @@
 char *_strchr(char *s, char c)
 {
 	unsigned int n, i, j;
+
 	j = 0;
 
 	while (s[j] != '\0')
@@ -22,7 +24,7 @@ char *_strchr(char *s, char c)
 		}
 		else if (i == n)
 		{
-			return (&s[n]);
+			return (NULL);
 		}
 	}
 }
