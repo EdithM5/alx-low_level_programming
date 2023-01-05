@@ -1,4 +1,4 @@
-#include"main.c"
+#include"main.h"
 /**
  * _strlen_recursion - return length of a string
  * @s: the string
