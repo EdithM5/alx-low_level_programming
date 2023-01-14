@@ -33,6 +33,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb == 0 || size == 0 || allo == 0)
 		return (NULL);
 
-	_memset(p, 0, (nmemb * size));
+	_memset(allo, 0, (nmemb * size));
+
 	return (allo);
 }
