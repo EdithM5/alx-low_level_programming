@@ -28,15 +28,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *allo;
 
-	allo = 0;
-
 	allo = malloc(size * nmemb);
 
 	if (nmemb == 0 || size == 0 || allo == 0)
 		return (NULL);
 
 	_memset(p, 0, (nmemb * size));
-
 	return (allo);
-	free(allo);
 }
