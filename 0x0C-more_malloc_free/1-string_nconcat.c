@@ -29,15 +29,18 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		o++;
 	}
 	m = o;
+	
+	if (n > m)
+		n = m;
+
 	s3 = malloc(sizeof(char) * (j + n));
 
 	if (s3 == NULL)
 		return (0);
 
-	for (k = 0; k < j; k++)
+	for (k = 0; k < (j - 1); k++)
 		s3[k] = s1[k];
-	if (n > m)
-		n = m;
+
 	for (l = 0; l < n; l++)
 	{
 		s3[j] = s2[l];
