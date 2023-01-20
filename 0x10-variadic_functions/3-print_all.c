@@ -8,11 +8,10 @@
  */
 void print_all(const char * const format, ...)
 {
+	va_list varlist;
 	unsigned int i = 0, j, k = 0;
 	char *str;
 	const char t_arg[] = "cifs";
-
-	va_list varlist;
 
 	va_start(varlist, format);
 	while (format && format[i])
@@ -49,5 +48,4 @@ void print_all(const char * const format, ...)
 		} i++;
 	}
 	printf("\n"), va_end(varlist);
-
 }
