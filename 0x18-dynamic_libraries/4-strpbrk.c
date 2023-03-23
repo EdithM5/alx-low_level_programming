@@ -1,5 +1,4 @@
 #include"main.h"
-#define NULL 0
 /**
  * _strpbrk - gives the first character from accept
  * @s: the string

@@ -1,5 +1,4 @@
 #include"main.h"
-#define NULL 0
 /**
  * _strchr - will search for char c
  * @s: the string

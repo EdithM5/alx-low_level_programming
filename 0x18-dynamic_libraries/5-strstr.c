@@ -1,5 +1,4 @@
 #include"main.h"
-#define NULL 0
 /**
  * _strstr - gives the substring from needle
  * @haystack: the string
