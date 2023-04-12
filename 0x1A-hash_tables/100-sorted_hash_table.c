@@ -103,7 +103,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	else
 	{
 		current_node = ht->shead;
-		while (current_Node->snext != NULL && strcmp(current_node->snext->key, key) < 0)
+		while (current_node->snext != NULL && strcmp(current_node->snext->key, key) < 0)
 			current_node = current_node->snext;
 		new_node->sprev = current_node;
 		new_node->snext = current_node->snext;
